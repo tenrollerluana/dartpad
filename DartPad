@@ -1,0 +1,48 @@
+void main(){
+  //Exibindo uma mensagem de olá,mundo!!
+  /*
+  print("Olá, mundo!");
+  */
+  
+  int idade = 17;
+  String nome = 'Liani';
+  print(idade);
+  
+  double n1 =5.7;
+  double n2 = 8.2;
+  double total = n1 * n2;
+  print(total);
+  
+  
+  // Criar um programa que leia duas notas e calcule a média, mostra
+  // se está aprovado quando o resultado for acima de 7 e reprovado
+  // quando o valor ficar abaixo de 7
+  double nota1 = 8;
+  double nota2 = 4;
+  
+  double media = (nota1 + nota2)/2;
+  
+  if (media >= 7 ){
+    print("Aprovado!");
+  } else {
+    print("Reprovado");
+  }
+  int i;
+  
+  for (i=0; i<10; i++){
+  print('olá, $i');
+  }
+  
+  
+  int calculo;
+//Função de soma
+int soma (a,b){
+  calculo = a + b;
+  return calculo;
+  }
+print(soma(10,20));
+    
+}
+
+
+  
